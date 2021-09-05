@@ -1,0 +1,230 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* DIV-ovi */
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.budzet {
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  position: relative;
+  background: #323a63;
+}
+
+.budzet-tekst {
+  position: relative;
+  left: 31.5%;
+  height: 40%;
+}
+
+.prihod-container {
+  position: relative;
+  top: 50%;
+  left: 9%;
+  background-color: white;
+  width: 30%;
+  height: 16%;
+  margin: 0%;
+  background-color: #06d6a0;
+  border-radius: 3px;
+}
+
+.rashod-container {
+  position: relative;
+  top: 75%;
+  right: 21%;
+  background-color: white;
+  width: 30%;
+  height: 16%;
+  margin: 0%;
+  background-color: #ef476f;
+  border-radius: 3px;
+}
+
+.transakcija {
+  background-color: lightgray;
+  height: 100px;
+}
+
+.forma {
+  display: block;
+  align-content: center;
+  position: relative;
+  padding-top: 2.5%;
+  left: 35%;
+}
+
+/* Error */
+.select-text {
+  position: absolute;
+  left: 35.5%;
+  color: red;
+  font-size: 12px;
+}
+.opis-text {
+  position: absolute;
+  left: 43%;
+  color: red;
+  font-size: 12px;
+}
+
+.number-text {
+  position: absolute;
+  left: 59%;
+  color: red;
+  font-size: 12px;
+}
+.error-text {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
+h3 {
+  color: white;
+}
+
+/* INPUT */
+input {
+  height: 25px;
+  border: 1px solid #a7a6a6;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+select,
+#potvrdi {
+  height: 28px;
+  width: 90px;
+}
+
+select {
+  border: 1px solid #a7a6a6;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+input[type="number"] {
+  width: 90px;
+}
+
+#potvrdi {
+  background-color: #323a63;
+  border: none;
+  color: white;
+}
+
+#izaberi {
+  color: #a7a6a6;
+}
+
+/* LISTA */
+.lista {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  display: block;
+  margin-left: 15%;
+}
+.right {
+  float: right;
+  width: 30%;
+  display: block;
+  margin-right: 15%;
+}
+
+.left-p {
+  height: 100px;
+}
+
+#prihodi {
+  color: #06d6a0;
+  font-size: 20px;
+}
+
+#rashodi {
+  color: #ef476f;
+  font-size: 20px;
+}
+
+/* Ostalo */
+hr {
+  border: 0.3px solid lightgray;
+}
+
+.prvi-span,
+.treci-span {
+  color: #323a63;
+  margin-left: 3%;
+}
+
+.drugi-span {
+  color: #06d6a0;
+  margin-right: 3%;
+  float: right;
+}
+
+.cetvrti-span {
+  color: #ef476f;
+  margin-right: 3%;
+  float: right;
+}
+
+#dostupan-budzet {
+  color: #999;
+}
+
+#novac {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.btn-delete {
+  position: absolute;
+  left: 47%;
+
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-delete2 {
+  position: absolute;
+  right: 10%;
+  top: 70px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.pBudzet {
+  position: relative;
+  left: 15px;
+}
+
+.ukupnoP, .ukupnoR {
+  position: relative;
+  right: -90%;
+  bottom: 75%;
+  color: white;
+}

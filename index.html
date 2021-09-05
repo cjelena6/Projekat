@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projekat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="budzet">
+      <div class="budzet-tekst">
+        <p>Dostupan budžet u <span id="dostupan-budzet"></span></p>
+        <p id="novac">0</p>
+      </div>
+      <div class="prihod-container">
+        <p class="pBudzet">Prihod</p>
+        <p class="ukupnoP"></p>
+      </div>
+      <div class="rashod-container">
+        <p class="pBudzet">Rashod</p>
+        <p class="ukupnoR"></p>
+      </div>
+    </div>
+    <div class="transakcija">
+      <form class="forma">
+        <select name="prihod" id="prihod" placeholder="Prihod/Rashod">
+          <option id="izaberi" value="0" selected disabled>Izaberi:</option>
+          <option value="1">Prihod</option>
+          <option value="2">Rashod</option>
+          </option>>
+        </select>
+
+        <input type="text" name="opis" id="opis" placeholder="Opis" />
+        <input type="number" name="iznos" id="iznos" placeholder="Iznos" />
+        <input type="submit" value="Potvrdi" id="potvrdi" />
+      </form>
+      <div class="error">
+        <div class="select-text"></div>
+        <div class="opis-text"></div>
+        <div class="number-text"></div>
+      </div>
+    </div>
+
+    <div class="lista">
+      <div class="left">
+        <p id="prihodi"> <b>Prihodi</b></p>
+        <div class="left-p"></div>
+      </div>
+      <div class="right">
+        <p id="rashodi"><b>Rashodi</b></p>
+        <div class="right-p"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>
